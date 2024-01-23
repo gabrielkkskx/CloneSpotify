@@ -5,9 +5,10 @@
     --cinza-font: #b3b3b3;
 }
 
-body{
+html, body{
     background-color: var(--black);
     color: var(--branco);
+    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar{
