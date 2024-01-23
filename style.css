@@ -24,7 +24,7 @@ body{
     padding: 16px 0 0 16px;
 }
 
-.logo{
+.sidebar-nav .logo{
     background: var(--bg-sidebar);
     display: flex;
     border-radius: 8px;
@@ -33,4 +33,9 @@ body{
 
 .logo img{
     width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 1em;
+    padding: 0 1em 0.5em 1em;
 }
