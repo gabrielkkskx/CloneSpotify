@@ -1,7 +1,8 @@
 :root{
     --bg-sidebar: #121212;
-    --branco: #000;
-    --black: #fff;
+    --black: #000;
+    --branco: #fff;
+    --cinza-font: #b3b3b3;
 }
 
 body{
@@ -38,4 +39,15 @@ body{
 .sidebar nav ul{
     margin-top: 1em;
     padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: var(--cinza-font);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
 }
