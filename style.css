@@ -1,5 +1,12 @@
 :root{
     --bg-sidebar: #121212;
+    --branco: #000;
+    --black: #fff;
+}
+
+body{
+    background-color: var(--black);
+    color: var(--branco);
 }
 
 .sidebar{
@@ -9,7 +16,6 @@
     bottom: 0;
     padding: 12px;
     width: 300px;
-    background-color: black;
 }
 
 .sidebar-nav{
