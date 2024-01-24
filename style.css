@@ -180,4 +180,5 @@ html, body{
 .premium{
     padding: 1em 2em 1em 1.5em;
     background-color: var(--gradiente);
+    z-index: -1;
 }
