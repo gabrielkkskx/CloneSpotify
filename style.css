@@ -144,3 +144,16 @@ html, body{
     border: 0;
     width: 113px;
 }
+
+.podcast{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: var(--bg-playlist);
+    color: var(--cinza-font);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
