@@ -5,6 +5,7 @@
     --branco: #fff;
     --cinza-font: #b3b3b3;
     --borda-btn: #878787;
+    --gradiente: linear-gradient(90deg, rgba(203,20,157,1) 0%, rgba(9,165,196,1) 100%);
 }
 
 html, body{
@@ -125,10 +126,11 @@ html, body{
 
 .playlist-item .title{
     font-weight: 700;
+    font-size: 1rem;
 }
 
 .playlist-item .subtitulo{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -173,4 +175,9 @@ html, body{
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.premium{
+    padding: 1em 2em 1em 1.5em;
+    background-color: var(--gradiente);
 }
