@@ -66,3 +66,22 @@ html, body{
     font-size: 14px;
     margin-top: 10px;
 }
+
+.biblioteca-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca-btn{
+    display: flex;
+    margin-right: 10px;
+    color: var(--cinza-font);
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
