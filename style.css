@@ -85,3 +85,14 @@ html, body{
     text-transform: none;
     padding: 20px 10px;
 }
+
+.biblioteca .biblioteca-btn .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.biblioteca .biblioteca-item .fa-plus{
+    margin: 24px 10px;
+}
