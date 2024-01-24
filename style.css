@@ -166,18 +166,18 @@ html, body{
 .podcast-item .text{
     padding-bottom: 14px;
     color: var(--branco);
-    font-family: 'Monsterrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .podcast-item .title{
     font-weight: 700;
-    font-family: 'Monsterrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .podcast-item .subtitulo{
     font-weight: 500;
     font-size: 12px;
-    font-family: 'Monsterrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .podcast-item .podcast-btn{
