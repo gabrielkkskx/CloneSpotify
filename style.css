@@ -157,3 +157,37 @@ html, body{
     margin: 8px 0;
     padding: 16px 20px;
 }
+
+.podcast .podcast-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.podcast-item .text{
+    padding-bottom: 14px;
+    color: var(--branco);
+}
+
+.podcast-item .title{
+    font-weight: 700;
+}
+
+.podcast-item .subtitulo{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.podcast-item .podcast-btn{
+    display: flex;
+    justify-content: center;
+    background-color: var(--branco);
+    color: var(--black);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0;
+    width: 113px;
+}
