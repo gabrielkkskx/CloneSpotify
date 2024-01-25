@@ -68,6 +68,7 @@ html, body{
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .biblioteca-item{
@@ -87,6 +88,7 @@ html, body{
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    cursor: pointer;
 }
 
 .biblioteca .biblioteca-btn .fa{
@@ -136,6 +138,7 @@ html, body{
 
 .playlist-item .playlist-btn{
     display: flex;
+    cursor: pointer;
     justify-content: center;
     background-color: var(--branco);
     color: var(--black);

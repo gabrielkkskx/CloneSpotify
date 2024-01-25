@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clone Spotify</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/sidebar-footer.css">
   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
       integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -20,7 +21,7 @@
         <nav class="sidebar-nav">
             <div class="logo">
                 <a href="">
-                    <img src="img/icons/logo-spotify.png" alt="">
+                    <img src="src/img/icons/logo-spotify.png" alt="">
                 </a>
             </div>
                 
@@ -73,6 +74,33 @@
         </div>
 
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="nav-header">
+                <div class="navigation">
+                    <button class="seta-esquerda">
+                        <img src="src/img/icons/small-left.png" alt="">
+                    </button>
+
+                    <button class="seta-direita">
+                        <img src="src/img/icons/small-right.png" alt="">
+                    </button>
+
+                    <div class="header-src">
+                        <img src="src/img/icons/search.png" alt="">
+                        <input id="input-scr" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+
+                    <div class="header-login">
+                        <button class="btn-subscribe">Inscreva-se</button>
+                        <button class="btn-login">Entrar</button>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </main>
 
     <footer class="premium">
         <div class="text">
