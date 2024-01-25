@@ -6,6 +6,9 @@
     --cinza-font: #b3b3b3;
     --borda-btn: #878787;
     --gradiente: linear-gradient(90deg, rgba(203,20,157,1) 0%, rgba(9,165,196,1) 100%);
+    --bg-icon: #131313;
+    --bg-seta: rgba(0, 0, 0, 7);
+    --subscribe: #a7a7a7;
 }
 
 html, body{

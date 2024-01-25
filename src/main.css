@@ -1,0 +1,90 @@
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--bg-sidebar);
+}
+
+.header-nav .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav .navigation .seta-esquerda{
+    margin-right: 1.25rem;
+}
+
+.seta-esquerda,
+.seta-direita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-seta);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+}
+
+.header-src{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: var(--bg-playlist);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header-src img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header-src input{
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: var(--branco);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header-login .btn-subscribe{
+    color: var(--subscribe);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.header-login .btn-login{
+    width: 100px;
+    height: 48px;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
