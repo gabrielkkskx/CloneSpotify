@@ -1,4 +1,4 @@
-.header.nav {
+.header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,13 +8,13 @@
     background-color: #121212;
   }
   
-  .header.nav .navigation {
+  .header-nav .navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
   
-  .header.nav .navigation .seta-esquerda {
+  .header-nav .navigation .seta-esquerda {
     margin-right: 1.25rem;
   }
   
