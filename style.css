@@ -156,7 +156,7 @@ html, body{
 .sidebar .cookies a{
     color: var(--cinza-font);
     font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
 }
 
@@ -175,4 +175,34 @@ html, body{
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.txt-btn{
+    font-weight: 600;
+}
+
+.premium{
+    padding: 1em;
+    background-color: var(--gradiente);
+    width: 100%;
+}
+
+.premium-title{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.premium-subtitle{
+    font-size: 1.3rem;
+}
+
+.premium-btn{
+    background-color: var(--branco);
+    border-radius: 20px;
+    color: var(--black);
+    margin: 5px;
+    font-size: 1rem;
+    padding: 1.3em;
+    margin: 5px;
 }
