@@ -1,90 +1,84 @@
-.main-container{
-    max-width: 80vw;
-    height: 100vh;
-    margin-left: 320px;
-    margin-right: 56px;
-}
-
-.header-nav{
+.header.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: var(--bg-sidebar);
-}
-
-.header-nav .navigation{
+    background-color: #121212;
+  }
+  
+  .header.nav .navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.header-nav .navigation .seta-esquerda{
+  }
+  
+  .header.nav .navigation .seta-esquerda {
     margin-right: 1.25rem;
-}
-
-.seta-esquerda,
-.seta-direita{
+  }
+  
+  .seta-esquerda,
+  .seta-direita {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 32px;
     height: 32px;
     background: var(--bg-icon);
-    background-color: var(--bg-seta);
-    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 50%;
+    border: none;
     cursor: pointer;
-}
-
-.header-login{
+  }
+  
+  .header-login {
     display: flex;
     align-items: center;
-}
-
-.header-src{
+  }
+  
+  .header-src {
     display: flex;
     align-items: center;
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: var(--bg-playlist);
+    background-color: #242424;
     border-radius: 500px;
     border: 1px solid transparent;
-}
-
-.header-src img{
+  }
+  
+  .header-src img {
     width: 16px;
     height: 16px;
     margin-left: 10px;
-}
-
-.header-src input{
+  }
+  
+  .header-src input {
     background: transparent;
     border: none;
-    padding: 0 100px 0 12px;
-    color: var(--branco);
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    outline: none;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    outline: none;
-}
-
-.header-login .btn-subscribe{
-    color: var(--subscribe);
+  }
+  
+  .header-login .subscribe {
+    color: var(--text-sub);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
-}
-
-.header-login .btn-login{
+  }
+  
+  .header-login .login {
     width: 100px;
     height: 48px;
-    color: var(--black);
+    color: var(--text-base-dark);
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
-}
+  }
