@@ -183,7 +183,7 @@ html, body{
     left: 0;
     right: 0;
     background: var(--gradiente);
-    padding: 15px 40px;
+    padding: 12px 15px;
     display: flex;
     justify-content: space-between;
   }
@@ -194,14 +194,14 @@ html, body{
 
   .premium .premium-title{
     color: var(--branco);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px;
     margin-bottom: 10px;
   }
   
   .premium .premium-subtitle{
     color: var(--branco);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
   }
   
