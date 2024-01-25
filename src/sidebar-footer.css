@@ -95,11 +95,11 @@ html, body{
     margin-right: 10px;
     font-weight: 300;
     padding-right: 8px;
-    cursor: pointer;
 }
 
 .biblioteca .biblioteca-item .fa-plus{
     margin: 24px 10px;
+    cursor: pointer;
 }
 
 .playlist{
