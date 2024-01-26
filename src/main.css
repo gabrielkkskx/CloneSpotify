@@ -181,7 +181,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 .offer__list-item {
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Em quantas partes os cards serão divididos. Ex: 1fr 1fr será dividido em 2 "porções" */
   grid-gap: 16px;
   gap: 16px;
   margin-bottom: 16px;
