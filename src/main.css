@@ -89,4 +89,22 @@
   font-size: 16px;
   font-weight: 700;
   border-radius: 40px;
+  border: none;
 }
+
+/* Hover header */
+
+.header__search:hover {
+  border: 1px solid var(--branco);
+}
+
+.header__login .subscribe:hover {
+  transform: scale(1.04);
+  color: var(--branco);
+}
+
+.header__login .login:hover {
+  transform: scale(1.04);
+}
+
+/*  */
