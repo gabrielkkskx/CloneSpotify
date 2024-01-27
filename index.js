@@ -3,9 +3,9 @@ const  resultArtist = document.getElementById('result-artist');
 const resultPlaylist = document.getElementById('result-playlists');
 
 function requestApi(searchTerm) {
-    const url = `http://localhost:3000/artists?name_like=${searchTerm}`
+    const url = `https://gabrielkkskx.github.io/artists/artists.json?name_like=${searchTerm}`
     fetch (url)
-        .then((Response) => Response.json())
+        .then((response) => response.json())
         .then((result) => displayResults(result))
 }
 
