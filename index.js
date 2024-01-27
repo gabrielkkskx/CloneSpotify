@@ -6,7 +6,8 @@ function requestApi(searchTerm) {
     const url = `https://gabrielkkskx.github.io/artists/artists.json?name_like=${searchTerm}`;
     fetch(url)
         .then((response) => response.json())
-        .then((result) => displayResults(result));
+        .then((result) => displayResults(result))
+        .catch((error) => console.error('Erro na requisição:', error));
 }
 
 function displayResults(result) {
@@ -32,19 +33,22 @@ function displayResults(result) {
         resultArtist.appendChild(artistItem);
     });
 
+    // Esconder a playlist (se necessário)
     resultPlaylist.classList.add('hidden');
+    // Exibir os resultados dos artistas
     resultArtist.classList.remove('hidden');
 }
 
 // Adicionar evento input
-document.addEventListener('input', function() {
+searchInput.addEventListener('input', function() {
     const searchTerm = searchInput.value.toLowerCase();
     if (searchTerm === '') {
+        // Se a pesquisa estiver vazia, esconda a playlist e exiba os resultados dos artistas
         resultPlaylist.classList.add('hidden');
         resultArtist.classList.remove('hidden');
         return;
     }
 
-    // Chamar a API com o novo termo de pesquisa
+    // Se houver um termo de pesquisa, chame a API
     requestApi(searchTerm);
 });
