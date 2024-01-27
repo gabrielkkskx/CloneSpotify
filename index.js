@@ -3,7 +3,7 @@ const resultArtist = document.getElementById('result-artist');
 const resultPlaylist = document.getElementById('result-playlists');
 
 function requestApi(searchTerm) {
-    const url = `https://gabrielkkskx.github.io/artists/artists.json?name_like=${searchTerm}`;
+    const url = `https://gabrielkkskx.github.io/artists/artists.json?name=${searchTerm}`;
     fetch(url)
         .then((response) => response.json())
         .then((result) => displayResults(result))
