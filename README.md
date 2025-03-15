@@ -10,6 +10,6 @@
 * CSS
 * JavaSccript
 
-<p align="center">Ps: Infelismente a busca não funciona por conta da falta do node.js
+<p align="center">Ps: Acredito que a busca não funciona no github por conta da falta do node.js
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
